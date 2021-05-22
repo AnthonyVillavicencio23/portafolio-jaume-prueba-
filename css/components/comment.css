@@ -14,6 +14,10 @@
   gap: 24px;
 }
 
+.comment-photo {
+  block-size: 64px;
+}
+
 .comment-card span {
   text-align: start;
 }
@@ -28,4 +32,33 @@
 
 .comment-card span:last-of-type {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    padding-block: 80px;
+  }
+
+  .comment-card {
+    padding: 80px;
+  }
+
+  .comment-photo {
+    block-size: 80px;
+  }
+
+  .comment-card span {
+    text-align: center;
+  }
+
+  .comment-card span:first-of-type {
+    font-size: 34px;
+    line-height: 55px;
+  }
+
+  .comment-card span:last-of-type {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+  }
 }
