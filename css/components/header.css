@@ -5,5 +5,6 @@
   block-size: 80px;
   position: sticky;
   top: 0;
+  z-index: 1;
   backdrop-filter: blur(10px);
 }
