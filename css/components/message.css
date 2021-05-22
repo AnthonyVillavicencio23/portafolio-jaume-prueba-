@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 40px;
+  padding-block: 40px;
 }
 
 .message span {
@@ -17,4 +17,16 @@
 
 .message-icon img {
   block-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .message {
+    padding-block: 200px;
+  }
+
+  .message span:first-child {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 55px;
+  }
 }

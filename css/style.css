@@ -6,5 +6,6 @@
 @import url(./components/button-icon.css);
 @import url(./components/hero.css);
 @import url(./components/message.css);
+@import url(./components/comment.css);
 
 @import url(./containers/wrapper.css);
