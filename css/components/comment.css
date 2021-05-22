@@ -14,12 +14,12 @@
   gap: 24px;
 }
 
-.comment-photo {
+.comment-image {
   block-size: 64px;
 }
 
 .comment-card span {
-  text-align: start;
+  inline-size: 100%;
 }
 
 .comment-card span:first-of-type {
@@ -43,7 +43,7 @@
     padding: 80px;
   }
 
-  .comment-photo {
+  .comment-image {
     block-size: 80px;
   }
 

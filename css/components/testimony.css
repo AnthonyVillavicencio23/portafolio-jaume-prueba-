@@ -1,0 +1,29 @@
+.testimony-image img {
+  inline-size: 100%;
+}
+
+.testimony-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-block: 40px;
+}
+
+.testimony-title {
+  background-color: var(--purple);
+  color: var(--white);
+  text-decoration: none;
+  font: var(--headline5);
+  align-self: flex-start;
+  padding-block: 4px;
+  padding-inline: 8px;
+  margin-inline-start: 4px;
+  box-shadow: -4px 4px 0 var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .testimony {
+    display: flex;
+    align-items: center;
+  }
+}
