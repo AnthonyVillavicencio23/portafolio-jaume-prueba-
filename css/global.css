@@ -25,8 +25,3 @@ body {
   min-block-size: 100vh;
   font: var(--body1);
 }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
