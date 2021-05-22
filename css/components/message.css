@@ -1,0 +1,20 @@
+.message {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px;
+}
+
+.message span {
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.message span:last-of-type {
+  font-weight: bold;
+}
+
+.message-icon img {
+  block-size: 80px;
+}

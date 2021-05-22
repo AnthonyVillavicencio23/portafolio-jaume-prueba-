@@ -4,6 +4,7 @@
 
 .hero-image {
   text-align: center;
+  padding-block-end: 16px;
 }
 
 .hero h1 {
