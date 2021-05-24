@@ -54,6 +54,17 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
 
 Aprendí distintas cosas en este taller como:
 
+- A usar la propiedad "sticky" para el header, además de darle un efecto interesante usando "backdrop-filter":
+
+```css
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+```
+
 - Por más pequeño que sea un archivo css, siempre es importante separar en componentes la estructura:
 
 ```css
