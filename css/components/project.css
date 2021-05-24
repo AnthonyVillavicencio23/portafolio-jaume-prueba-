@@ -1,16 +1,16 @@
-.testimony {
+.project {
   padding-block: 40px;
 }
 
-.testimony-image {
+.project-image {
   text-align: center;
 }
 
-.testimony-image img {
+.project-image img {
   max-inline-size: 100%;
 }
 
-.testimony-description {
+.project-description {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -18,17 +18,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .testimony {
+  .project {
     display: flex;
     align-items: center;
+    gap: 32px;
     padding-block: 80px;
   }
 
-  .testimony-description {
+  .project-description {
     flex: 1;
   }
 
-  .testimony:nth-child(odd) .testimony-image {
+  .project:nth-child(odd) .project-image {
     order: 2;
     flex: 1;
     text-align: center;

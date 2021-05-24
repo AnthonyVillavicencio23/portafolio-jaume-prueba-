@@ -11,26 +11,31 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <img
-          src="./assets/images/logo.svg"
-          width="70"
-          height="20"
-          alt="Logo oficial"
-        />
-        <nav class="menu" aria-label="main-navigation">
-          <ul>
-            <li><a class="is-active" href="#main">Hola</a></li>
-            <li><a href="#project">Proyectos</a></li>
-            <li><a href="#contact">Hablemos</a></li>
-          </ul>
-        </nav>
-        <button class="button">Currículum</button>
-      </header>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <img
+            src="./assets/images/logo.svg"
+            width="70"
+            height="20"
+            alt="Logo oficial"
+          />
+          <nav class="menu" aria-label="main-navigation">
+            <ul>
+              <li><a class="is-active" href="#main">Hola</a></li>
+              <li><a href="#project">Proyectos</a></li>
+              <li><a href="#contact">Hablemos</a></li>
+            </ul>
+          </nav>
+          <button class="button">Currículum</button>
+        </div>
+      </div>
+    </header>
 
+    <div class="wrapper">
       <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
           <img
@@ -96,14 +101,14 @@
         </article>
       </section>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project" id="project">
+        <div class="project-image">
           <img
-            src="./assets/images/testimony-image-1.png"
+            src="./assets/images/project-image-1.png"
             alt="La práctica hace al maestro"
           />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" href="https://leonidasesteban.com"
             >LeonidasEsteban.com</a
           >
@@ -116,14 +121,14 @@
         </div>
       </div>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project">
+        <div class="project-image">
           <img
-            src="./assets/images/testimony-image-2.png"
+            src="./assets/images/project-image-2.png"
             alt="La práctica hace al maestro"
           />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" href="https://leonidasesteban.com">MARVOL</a>
           <p>
             Es el sitio oficial de Marvol Entertainment. Explore películas,
@@ -135,14 +140,14 @@
         </div>
       </div>
 
-      <div class="testimony">
-        <div class="testimony-image">
+      <div class="project">
+        <div class="project-image">
           <img
-            src="./assets/images/testimony-image-3.png"
+            src="./assets/images/project-image-3.png"
             alt="La práctica hace al maestro"
           />
         </div>
-        <div class="testimony-description">
+        <div class="project-description">
           <a class="title" href="https://leonidasesteban.com">NETNET</a>
           <p>
             Películas y series ilimitadas y mucho más. Disfruta donde quieras.
@@ -168,7 +173,7 @@
         </article>
       </section>
 
-      <form action="" method="POST" class="form">
+      <form id="contact" action="" method="POST" class="form">
         <div class="form-content">
           <h2 class="title">Hablemos</h2>
           <p>
