@@ -1,10 +1,3 @@
-Cuando aplicas display: flex, flex-direction: column, los elementos toman
-un display strech por defecto.
-
-aria-label
-
-vincular label con su input siempre
-
 # Portafolio de Jaume
 
 Muestra tus mejores proyectos acompañados de una paleta de colores azules vibrantes. Además añade opiniones o reviews de tu trabajo para humanizarte.
@@ -59,45 +52,55 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
 
 ### Lo que aprendí
 
-- Aprendí distintas cosas en este taller:
+Aprendí distintas cosas en este taller como:
 
-```html
-<button class="button">
-  <span class="button__left"><i class="ri-arrow-up-circle-fill"></i></span>
-  <span class="button__text">Download now!</span>
-  <span class="button__right"><i class="ri-arrow-down-circle-fill"></i></span>
-</button>
-```
+- Por más pequeño que sea un archivo css, siempre es importante separar en componentes la estructura:
 
 ```css
-.button__text {
-  color: var(--black-color);
-  font-size: 17px;
-  line-height: 28px;
-  transform: translate(15px, 0);
-  transition: var(--transition);
+.title {
+  background-color: var(--purple);
+  color: var(--white);
+  text-decoration: none;
+  font: var(--headline5);
+  align-self: flex-start;
+  padding-block: 4px;
+  padding-inline: 8px;
+  box-shadow: -4px 4px 0 var(--white);
 }
+```
 
-.button__left {
-  opacity: 1;
-  transform: translate(-5px, 0);
-  transition: var(--transition);
-}
+- Lo que es el "aria-label" y su función.
 
-.button__right {
-  opacity: 0;
-  transform: translate(50px, -50px);
-  transition: var(--transition);
-}
+```html
+<nav class="menu" aria-label="main-navigation">
+  <ul>
+    <li><a class="is-active" href="#main">Hola</a></li>
+    <li><a href="#project">Proyectos</a></li>
+    <li><a href="#contact">Hablemos</a></li>
+  </ul>
+</nav>
+```
+
+- Vincular label con su input siempre como buena práctica, además de como colocar este último embebido en el primero:
+
+```html
+<label for="form-name"
+  >Nombre Completo<input
+    required
+    name="name"
+    id="form-name"
+    type="text"
+    placeholder="Juan"
+/></label>
 ```
 
 ## Desarrollo continuo:
 
-- Lo siguiente que haré será aprender a usar el Figma desde el punto de vista de un desarrollador Frontend, además de mejorar mis skills en flexbox y grid llevando algun curso con Leonidas.
+Lo siguiente que haré será aprender a usar el Figma desde el punto de vista de un desarrollador Frontend, además de mejorar mis skills en flexbox y grid llevando algun curso con Leonidas.
 
 ## Recursos:
 
-- Todos los recursos usados en este proyecto son de la autoría de LeonidasEsteban.com
+Todos los recursos usados en este proyecto son de la autoría de LeonidasEsteban.com
 
 ## Autor
 
@@ -106,4 +109,4 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
 
 ## Agradecimientos
 
-- A Leonidas, por darlo todo en cada clase. Siento que no se guardó nada en este taller. Un genio del frontend.
+A Leonidas, por darlo todo en cada clase. Siento que no se guardó nada en este taller. Un genio del frontend.
