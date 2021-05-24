@@ -14,171 +14,193 @@
   </head>
   <body>
     <div class="wrapper">
-      <div>
-        <header class="header">
+      <header class="header">
+        <img
+          src="./assets/images/logo.svg"
+          width="70"
+          height="20"
+          alt="Logo oficial"
+        />
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li><a class="is-active" href="#main">Hola</a></li>
+            <li><a href="#project">Proyectos</a></li>
+            <li><a href="#contact">Hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Currículum</button>
+      </header>
+
+      <section aria-label="main" class="hero" id="main">
+        <div class="hero-image">
+          <img
+            src="./assets/images/jaume-photo.png"
+            width="338"
+            height="330"
+            alt="Photo of Jaume"
+          />
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="social">
+            <a class="button-icon" href="tel:234243242"
+              ><img src="./assets/icons/icon-phone.svg"
+            /></a>
+            <a class="button-icon" href="tel:234243242"
+              ><img src="./assets/icons/icon-important_mail.svg"
+            /></a>
+            <a class="button-icon" href="tel:234243242"
+              ><img src="./assets/icons/icon-instagram.svg"
+            /></a>
+            <a class="button-icon" href="tel:234243242"
+              ><img src="./assets/icons/icon-twitter_squared.svg"
+            /></a>
+          </div>
+          <a href="#" class="button">Descargar Currículum</a>
+        </div>
+      </section>
+
+      <section class="message">
+        <span
+          >A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles</span
+        >
+        <span>Aquí hay algunos que me gustaría compartir.</span>
+        <a class="message-icon" href="#project"
+          ><img
+            src="./assets/icons/icons-down.svg"
+            alt="Down to Jaume's portfolio"
+        /></a>
+      </section>
+
+      <section class="comment">
+        <article class="comment-card">
+          <img
+            class="comment-image"
+            src="./assets/images/leonidas-photo.png"
+            alt=""
+          />
+          <span
+            >"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses".</span
+          >
+          <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+        </article>
+      </section>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img
+            src="./assets/images/testimony-image-1.png"
+            alt="La práctica hace al maestro"
+          />
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" href="https://leonidasesteban.com"
+            >LeonidasEsteban.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" target="_blank" class="button is-secondary">Ver Código</a>
+          <a href="#" target="_blank" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img
+            src="./assets/images/testimony-image-2.png"
+            alt="La práctica hace al maestro"
+          />
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" href="https://leonidasesteban.com"
+            >MARVOL</a
+          >
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <a href="#" target="_blank" class="button is-secondary">Ver Código</a>
+          <a href="#" target="_blank" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <div class="testimony">
+        <div class="testimony-image">
+          <img
+            src="./assets/images/testimony-image-3.png"
+            alt="La práctica hace al maestro"
+          />
+        </div>
+        <div class="testimony-description">
+          <a class="testimony-title" href="https://leonidasesteban.com"
+            >NETNET</a
+          >
+          <p>
+            Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+            Cancela cuando quieras.
+          </p>
+          <a href="#" target="_blank" class="button is-secondary">Ver Código</a>
+          <a href="#" target="_blank" class="button">Ver Proyecto</a>
+        </div>
+      </div>
+
+      <section class="comment">
+        <article class="comment-card">
+          <img
+            class="comment-image"
+            src="./assets/images/jason-photo.png"
+            alt=""
+          />
+          <span
+            >"Jaume ha superado mis expectativas desde el diseño hasta el
+            desarrollo".</span
+          >
+          <span>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-logo">
           <img
             src="./assets/images/logo.svg"
             width="70"
             height="20"
             alt="Logo oficial"
           />
-          <nav class="menu">
-            <ul>
-              <li><a class="is-active" href="#main">Hola</a></li>
-              <li><a href="#project">Proyectos</a></li>
-              <li><a href="#contact">Hablemos</a></li>
-            </ul>
-          </nav>
-          <button class="button">Currículum</button>
-        </header>
+        </div>
 
-        <section class="hero" id="main">
-          <div class="hero-image">
-            <img
-              src="./assets/images/jaume-photo.png"
-              width="338"
-              height="330"
-              alt="Photo of Jaume"
-            />
-          </div>
-          <div class="hero-description">
-            <h1>
-              <span>¡Hola a todos!</span>
-              <span>Soy Jaume</span>
-            </h1>
-            <p>
-              Frontend Developer que le encanta implementar diseños que inspiran
-              y atraen a las personas.
-            </p>
-            <div class="hero-social">
-              <a class="button-icon" href="tel:234243242"
-                ><img src="./assets/icons/icon-phone.svg"
-              /></a>
-              <a class="button-icon" href="tel:234243242"
-                ><img src="./assets/icons/icon-important_mail.svg"
-              /></a>
-              <a class="button-icon" href="tel:234243242"
-                ><img src="./assets/icons/icon-instagram.svg"
-              /></a>
-              <a class="button-icon" href="tel:234243242"
-                ><img src="./assets/icons/icon-twitter_squared.svg"
-              /></a>
-            </div>
-            <a href="#" class="button">Descargar Currículum</a>
-          </div>
-        </section>
-
-        <section class="message">
-          <span
-            >A lo largo de mi carrera como Frontend, he tenido el privilegio de
-            trabajar en proyectos retadores e increíbles</span
-          >
-          <span>Aquí hay algunos que me gustaría compartir.</span>
-          <a class="message-icon" href="#project"
-            ><img
-              src="./assets/icons/icons-down.svg"
-              alt="Down to Jaume's portfolio"
+        <div class="social">
+          <a class="button-icon" href="tel:234243242"
+            ><img src="./assets/icons/icon-phone.svg"
           /></a>
-        </section>
-
-        <section class="comment">
-          <article class="comment-card">
-            <img
-              class="comment-image"
-              src="./assets/images/leonidas-photo.png"
-              alt=""
-            />
-            <span
-              >"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
-              desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
-              meses".</span
-            >
-            <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
-          </article>
-        </section>
-
-        <div class="testimony">
-          <div class="testimony-image">
-            <img
-              src="./assets/images/testimony-image-1.png"
-              alt="La práctica hace al maestro"
-            />
-          </div>
-          <div class="testimony-description">
-            <a class="testimony-title" href="https://leonidasesteban.com"
-              >LeonidasEsteban.com</a
-            >
-            <p>
-              Accede a más de 120 proyectos que te ayudarán a mejorar tus
-              habilidades como desarrollador Front-End.
-            </p>
-            <a href="#" target="_blank" class="button is-secondary"
-              >Ver Código</a
-            >
-            <a href="#" target="_blank" class="button">Ver Proyecto</a>
-          </div>
+          <a class="button-icon" href="tel:234243242"
+            ><img src="./assets/icons/icon-important_mail.svg"
+          /></a>
+          <a class="button-icon" href="tel:234243242"
+            ><img src="./assets/icons/icon-instagram.svg"
+          /></a>
+          <a class="button-icon" href="tel:234243242"
+            ><img src="./assets/icons/icon-twitter_squared.svg"
+          /></a>
         </div>
-
-        <div class="testimony">
-          <div class="testimony-image">
-            <img
-              src="./assets/images/testimony-image-2.png"
-              alt="La práctica hace al maestro"
-            />
-          </div>
-          <div class="testimony-description">
-            <a class="testimony-title" href="https://leonidasesteban.com"
-              >MARVOL</a
-            >
-            <p>
-              Es el sitio oficial de Marvol Entertainment. Explore películas,
-              personajes, cómics, programas de televisión, videos y más
-              oficiales de Marvol.
-            </p>
-            <a href="#" target="_blank" class="button is-secondary"
-              >Ver Código</a
-            >
-            <a href="#" target="_blank" class="button">Ver Proyecto</a>
-          </div>
+        <div class="footer-copyright">
+          <p>Hecho con el ❤ por Jaume.</p>
+          <p>Copyright 2021 - Todos los derechos reservados</p>
         </div>
-
-        <div class="testimony">
-          <div class="testimony-image">
-            <img
-              src="./assets/images/testimony-image-3.png"
-              alt="La práctica hace al maestro"
-            />
-          </div>
-          <div class="testimony-description">
-            <a class="testimony-title" href="https://leonidasesteban.com"
-              >NETNET</a
-            >
-            <p>
-              Películas y series ilimitadas y mucho más. Disfruta donde quieras.
-              Cancela cuando quieras.
-            </p>
-            <a href="#" target="_blank" class="button is-secondary"
-              >Ver Código</a
-            >
-            <a href="#" target="_blank" class="button">Ver Proyecto</a>
-          </div>
-        </div>
-
-        <section class="comment">
-          <article class="comment-card">
-            <img
-              class="comment-image"
-              src="./assets/images/jason-photo.png"
-              alt=""
-            />
-            <span
-              >"Jaume ha superado mis expectativas desde el diseño hasta el
-              desarrollo".</span
-            >
-            <span>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
-          </article>
-        </section>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
