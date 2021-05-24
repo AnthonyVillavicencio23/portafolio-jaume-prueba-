@@ -16,8 +16,8 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
   - [Captura](#captura)
   - [Enlaces](#enlaces)
 - [Mi Proceso](#mi-proceso)
-  - [Tecnologías](#tecnologias)
-  - [Lo que aprendí](#lo-que-aprendi)
+  - [Tecnologías](#tecnologías)
+  - [Lo que aprendí](#lo-que-aprendí)
   - [Desarrollo continuo](#desarrollo-continuo)
   - [Recursos](#recursos)
 - [Autor](#autor)
@@ -91,7 +91,7 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
 }
 ```
 
-## Desarrollo Continuo:
+## Desarrollo continuo:
 
 - Lo siguiente que haré será aprender a usar el Figma desde el punto de vista de un desarrollador Frontend, además de mejorar mis skills en flexbox y grid llevando algun curso con Leonidas.
 
