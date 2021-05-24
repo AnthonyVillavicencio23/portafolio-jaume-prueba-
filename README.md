@@ -38,8 +38,8 @@ Muestra tus mejores proyectos acompañados de una paleta de colores azules vibra
 
 ### Enlaces
 
-- [Solución](https://github.com/heraldofortuna/angry-birds-template)
-- [Sitio en vivo](https://heraldofortuna.github.io/angry-birds-template/)
+- [Repositorio](https://github.com/heraldofortuna/portafolio-jaume)
+- [Sitio en vivo](https://heraldofortuna.github.io/portafolio-jaume/)
 
 ## Mi Proceso
 
@@ -94,11 +94,11 @@ Aprendí distintas cosas en este taller como:
 /></label>
 ```
 
-## Desarrollo continuo:
+## Desarrollo continuo
 
 Lo siguiente que haré será aprender a usar el Figma desde el punto de vista de un desarrollador Frontend, además de mejorar mis skills en flexbox y grid llevando algun curso con Leonidas.
 
-## Recursos:
+## Recursos
 
 Todos los recursos usados en este proyecto son de la autoría de LeonidasEsteban.com
 
